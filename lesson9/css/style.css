@@ -1,0 +1,186 @@
+#container {
+	width: 800px;
+	margin: 20px auto;
+  }
+  div#header {
+	  background: #009688;
+	  height: 60px;
+	  padding-left: 20px;
+	  line-height: 60px;
+	  font-size: 20px;
+	  color: white;
+  }
+  table {
+	width: 100%;
+	margin-bottom: 30px;
+  }
+  
+  table#review {
+	  margin-top: 30px;
+  }
+  div#resist {
+	  text-align: center;
+  }
+  
+  tr.tableMidashi td {
+	  background: #607D8B;
+	  color: white;
+  }
+  div#resist p{
+	  border: 1px solid #9E9E9E;
+	  padding: 50px 0;
+	  margin-bottom: 20px;
+  }
+  
+  textarea {
+	  width: 100%;
+  }
+  .textCenter {
+	  text-align: center;
+  }
+  
+  #menu {
+	  overflow: hidden;
+	  margin-bottom: 20px;
+  }
+  
+  #menu a {
+	  width: 345px;
+	  display: block;
+	  float: left;
+	  border: 1px solid #009688;
+	  text-align: center;
+	  padding: 10px 20px;
+	  color: #009688;
+	  text-decoration: none;
+	  /* font-weight: bold; */
+	  border-radius: 35px;
+  }
+  
+  #menu a:hover {
+	background: #009688;
+	color: white;
+	opacity: 0.9;
+  }
+  
+  #menu a:first-child {
+	  margin-right: 25px;
+  }
+  
+  form#search {
+	  border: 1px solid #9E9E9E;
+	  padding: 20px;
+	  margin-bottom: 50px;
+  }
+  
+  form#search table {
+	  width: 100%;
+	  margin-bottom: 15px;
+  }
+  
+  form#search table td {
+	  border:none;
+  }
+  
+  form#search table tr {
+	  padding-bottom: 10px;
+  }
+  
+  input[type="submit"] {width: 250px;height: 45px;background: #FFEB3B;border-radius: 25px;}
+  
+  td {
+	  border: 1px solid #9E9E9E;
+	  padding: 10px;
+  }
+  
+  th {
+	  border: 1px solid #9E9E9E;
+	  border-bottom:3px double #9E9E9E;
+	  padding: 10px;
+  }
+  
+  input#reviewBtn {
+	  width: 120px;
+	  height: 30px;
+	  background: #FFEB3B;
+	  border-radius: 25px;
+	  font-size: 13px;
+  }
+  
+  
+  input[type="text"] {
+	  width: 220px;
+  }
+  input[type="password"] {
+	  width: 220px;
+  }
+  
+  a:visited {
+	  color: white;
+	  text-decoration: none;
+  }
+  
+  div#header a{
+	  text-decoration:none;
+  }
+  
+  
+  
+  /*レーティング*/
+  .input-range {
+	display: none;
+  }
+  .range-group {
+	position: relative;
+  }
+  .range-group > a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+  }
+  .range-group > a:before {
+	content: "☆";
+	font-family: "Ionicons";
+	font-size: 20px;
+	color: #aaa;
+  }
+  .range-group > a.on:before {
+	content: "★";
+	color: #fc3;
+  }
+  
+  
+  label {
+	  margin-right: 20px;
+  }
+  
+  input[type="radio"] {
+	  margin-right: 10px;
+  }
+  
+  a#login {
+	  float: right;
+	  margin-right: 20px;
+  }
+  
+  a#newResist {
+	  padding-top: 20px;
+	  display: block;
+	  margin: 0 auto;
+	  width: 200px;
+	  text-align: center;
+	  color: black;
+  }
+  
+  
+  h1 {
+	  text-align: center;
+	  margin-bottom: 20px;
+	  font-size: 1.5em;
+	  color: #009688;
+  }
+
+  .headerRight {
+	float: right;
+	margin-right: 10px;
+}
